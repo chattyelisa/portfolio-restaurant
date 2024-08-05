@@ -1,0 +1,168 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+#main {
+    height: 100vh;
+}
+
+.navbar {
+    z-index: 1;
+}
+
+.bg-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    filter: brightness(0.7);
+}
+
+#main-text {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#main-restaurant-name {
+    font-family: "Playfair Display", serif;
+}
+
+#about-heading {
+    font-family: "Playfair Display", serif;
+}
+
+#grill-image {
+    max-height: 350px;
+    object-fit: scale-down;
+}
+
+.has-dropcap:first-letter {
+  font-family: "Playfair Display", serif;
+  float: left;
+  font-size: 4rem;
+  line-height: 0.65;
+  margin: 0.1em 0.13em 0.18em 0;
+  color: #304835;
+}
+
+
+#white-link {
+    color: white;
+}
+
+#special-white-link {
+    color: white;
+}
+
+#special-white-link:hover {
+    color: #ab8e66;
+}
+
+.card-img-top{
+    position:absolute;
+    top: 0;
+    display: block;
+    opacity: 0.9;
+    filter: brightness(0.275);
+    overflow: hidden;
+    height: 300px;
+}
+
+.card-body{
+    z-index: 9999;
+    height: 300px;
+}
+
+#menu-column-heading {
+    font-family: "Playfair Display", serif;
+}
+
+#reservation-column-heading {
+    font-family: "Playfair Display", serif;
+}
+
+#contact-heading {
+    font-family: "Playfair Display", serif;
+}
+
+#reservations-heading {
+    font-family: "Playfair Display", serif;
+}
+
+#faq-heading {
+    font-family: "Playfair Display", serif;
+}
+
+#menu-heading {
+    font-family: "Playfair Display", serif;
+}
+
+.text-brown {
+    color: #ab8e66;
+}
+
+.text-dark-brown {
+    color: #8a7252;
+}
+
+.text-green {
+    color: #304835;
+}
+
+.text-dark-green {
+    color: #122717;
+}
+
+.bg-dark-green {
+    background-color: #122717;
+}
+
+.btn-primary {
+    background-color: #ab8e66;
+    border-color: #ab8e66;
+}
+
+.btn {
+    --bs-btn-hover-bg: #987e59;
+    --bs-btn-hover-border-color: #987e59;
+    --bs-btn-bg: transparent;
+    --bs-btn-border-color: #ab8e66;
+    --bs-btn-hover-color: white;
+    --bs-btn-focus-shadow-rgb: #987e59;
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+    --bs-btn-active-bg: #987e59;
+    --bs-btn-active-border-color: #987e59;
+}
+
+.accordion {
+    --bs-accordion-btn-bg: #ede5db;
+    --bs-accordion-active-bg: #ab8e66;
+    --bs-accordion-active-color: white;
+    --bs-accordion-btn-focus-box-shadow: #987e59;
+}
+
+.nav {
+    --bs-nav-link-color: #ab8e66;
+    --bs-nav-link-hover-color: #6a573b;
+}
+
+@media only screen and (max-width: 576px) {
+    #about {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    #about-container {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+
+.navbar {
+    --bs-navbar-toggler-focus-width: 1px;
+}
